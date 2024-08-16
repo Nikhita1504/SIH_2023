@@ -1,0 +1,75 @@
+/* TableComponent.css */
+
+/* Filter icon button */
+.filter-button{
+    background:transparent;
+    border: 1px solid white;
+
+    padding: 6px 20px; 
+    cursor: pointer;
+    /* padding: 5px; */
+    color: white;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .filter-button:hover{
+    border: 1px solid black;
+    background: #9297fb;
+    transition: 1s;
+  }
+  
+  /* Filter options container */
+  .filter-options {
+    position: fixed;
+    top: 70%; /* Adjust as needed */
+   left: 10px; /* Adjust as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Filter option buttons */
+  .filter-options button {
+    display: block;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .filter-options button:hover {
+    background-color: rgb(210, 210, 250);
+  }
+  
+  /* Table */
+  table {
+    width: 120%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header */
+  table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Table body */
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Highlighted row */
+  .highlight {
+    background-color:rgba(248, 3, 3, 0.401);
+  }
+  
